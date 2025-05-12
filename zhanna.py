@@ -267,7 +267,7 @@ def check_win_condition(context: CallbackContext):
                 )
 
 def main():
-    updater = Updater("YOUR_BOT_TOKEN", use_context=True)
+    updater = Updater("7679825815:AAEQlaugFqXFPuCjpDXXsr5-476YwS1PZDc", use_context=True)
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("start", start))
